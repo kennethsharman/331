@@ -1,4 +1,5 @@
-# CPSC331 Spring 2018
+# CPSC 331
+University of Calgary Spring 2018
 Data Structures, Algorithms, and Their Analysis
 
 Fundamental data structures, including arrays, lists, stacks, queues, trees, hash tables, and graphs.
