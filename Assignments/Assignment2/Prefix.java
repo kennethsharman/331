@@ -19,6 +19,9 @@ public class Prefix {
      */
     public static int evaluate(Scanner sc) {
 
+        // Operators that come first in prefix notation ae evaluated last
+        // Scanner object is read a single character at a time. Coupling switch
+        // with recursive calls evaluates the expression in the reuqired manner.
         String token = sc.next(); // prefix expression ex: "+ * 3 2 6" --> 12
 
         switch (token) {
