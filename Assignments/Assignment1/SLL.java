@@ -1,9 +1,13 @@
-package homework1;
+
 
 /**
+ * Class provides structure for singly linked list. Uses node objects defined in
+ * SLLNode.java
+ *
+ * Date: June 2, 2018
  *
  * @author Ken
- * @param <T>
+ * @param <T> Comparable type parameter
  */
 public class SLL<T> {
 

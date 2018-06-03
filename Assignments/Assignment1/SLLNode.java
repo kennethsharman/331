@@ -1,14 +1,18 @@
-package homework1;
+
 
 /**
+ * Class provides structure to a single node, which is to be instantiated as
+ * part of a singly linked list in SSL.java
  *
- * @author Ken
- * @param <T>
+ * Date: June 2, 2018
+ *
+ * @author Ken Sharman
+ * @param <T> Comparable type parameter
  */
 public class SLLNode<T> {
 
-    public T info;
-    public SLLNode<T> next;
+    public T info; // data
+    public SLLNode<T> next; // reference to next node in list
 
     public SLLNode() {
         this(null, null);
@@ -22,5 +26,5 @@ public class SLLNode<T> {
         info = el;
         next = ptr;
     } // end constructor
-    
+
 } // end SLLNode<T>
