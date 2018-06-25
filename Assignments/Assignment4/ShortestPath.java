@@ -13,6 +13,15 @@ import java.util.LinkedList;
 import java.util.Queue;
 import javax.swing.JFrame;
 
+/**
+ * Class determines the shortest unweighted path using breadth first search for
+ * provided maze and query file. Instantiates MazeVisualizer.java, Pair.java,
+ * and Node.java
+ *
+ * Date: July 2, 2018
+ *
+ * @author Kenneth Sharman
+ */
 public class ShortestPath {
 
     public static void main(String[] args) {
